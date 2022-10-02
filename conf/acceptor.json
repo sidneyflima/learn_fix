@@ -1,0 +1,15 @@
+{
+    "connectionType": "acceptor",
+    "workDir": ".",
+    "fix": {
+        "configFile": "conf/fix/fix_acceptor.cfg",
+        "dataDictionaryFile": "specs/FIX44.xml"
+    },
+    "database": {
+        "useLocal": true,
+        "kind": "json",
+        "localDatabaseFiles": {
+            "users": "data/json/users.json"
+        }
+    }
+}

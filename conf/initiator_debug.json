@@ -1,0 +1,15 @@
+{
+    "connectionType": "initiator",
+    "workDir": "../..",
+    "fix": {
+        "configFile": "conf/fix/fix_initiator.cfg",
+        "dataDictionaryFile": "specs/FIX44.xml"
+    },
+    "database": {
+        "useLocal": true,
+        "kind": "json",
+        "localDatabaseFiles": {
+            "users": "data/json/users.json"
+        }
+    }
+}
